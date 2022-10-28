@@ -11,7 +11,7 @@
     /* background-image: url("water_11zon.jpeg"); */
     background-size: cover;
     /* background-image: https://i.pinimg.com/originals/ca/3d/b2/ca3db2e7d89c9765a2e518d9b7d6915d.jpg; */
-    background-image: url("");
+    background-image: src=("media/nss.jpg");
     background-color: #cccccc;
     width: 100%;
     height: 400px;
