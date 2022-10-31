@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-
+<head >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body { 
+          background-image: url("./media/nss.jpg");  
+          background-image: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;}
+          </style>
+    <title>Document</title>
+    
 </head>
 <link rel="stylesheet" href="styles/main.css">
 <title>page 4 needing $ </title>
@@ -54,34 +60,32 @@
       </form>
     </section>
 
-      <section class="debt-form">
-        <h1> Debt Relief Form </h1>
-        <form>
-          <fieldset class="personal-information">
-            <label>Enter Your First Name: <input type="text" name="first-name" /></label>
-            <label>Enter Your Last Name: <input type="text" name="last-name" /></label>
-            <label>Enter Your Email: <input type="email" name="email" placeholder="bobby_mcgee33@gmail.com" /></label>
-            <label>Create a New Password: <input type="password" name="password" pattern="[a-z0-5]{8,}" /></label>
-          </fieldset>
-          <fieldset>
-            <label><input type="radio" name="account-type" class="inline" /> I am 18+ years of age</label>
-            <label><input type="radio" name="account-type" class="inline" /> Subscribe to our monthly news lettter</label>
-            <label><input type="checkbox" name="terms" class="inline" /> I accept the terms and conditions</label>
-          </fieldset>
-          <fieldset class="debt-relief-statment">
-            <label>Why do you deserve debt relief?</label>
-             <textarea id="relief-statment" name="statement" rows="5" cols="33"></textarea>
-          </fieldset>
-          <fieldset>
-             <label> Submit (or dont,</label>
-              <form action="form-accepted.html">
-                <input type="button" value="Whatever"/>
-              </form>
-          </fieldset>
-        </form>
-      </form>
-    </section>
+    <section class="debt-form">
+      <h1> Debt Relief Form </h1>
+      <form>
+        <fieldset class="personal-information">
+          <label>Enter Your First Name: <input type="text" name="first-name" /></label>
+          <label>Enter Your Last Name: <input type="text" name="last-name" /></label>
+          <label>Enter Your Email: <input type="email" name="email" placeholder="bobby_mcgee33@gmail.com" /></label>
+          <label>Create a New Password: <input type="password" name="password" pattern="[a-z0-5]{8,}" /></label>
+        </fieldset>
+        <fieldset>
 
+          <label><input type="radio" name="account-type" class="inline" /> I am 18+ years of age</label>
+          <label><input type="radio" name="account-type" class="inline" /> Subscribe to our monthly news lettter</label>
+          <label><input type="checkbox" name="terms" class="inline" /> I accept the terms and conditions</label>
+        </fieldset>
+        <fieldset class="debt-relief-statment">
+          <label>Why do you deserve debt relief?</label>
+          <textarea id="relief-statment" name="statement" rows="5" cols="33"></textarea>
+        </fieldset>
+        <label>Submit or dont,</label>
+        </form>
+        <form action="form-accepted.html">
+          <input type="submit" value="whatever" />
+        </form>
+    </section>
+    
 
 </body>
 
